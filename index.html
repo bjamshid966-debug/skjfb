@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-    <title>Uynaykon | Eng yaxshi o'yinlar va kontent do'koni</title>
+    <title>Game | Eng yaxshi o'yinlar va kontent do'koni</title>
     <!-- Google Fonts va Font Awesome 6 (tez va chiroyli) -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -421,7 +421,7 @@
     <header class="header">
         <div class="logo">
             <i class="fas fa-gamepad"></i>
-            <h1>Uynaykon</h1>
+            <h1>Game</h1>
         </div>
         <div class="nav-links">
             <a href="#">Bosh sahifa</a>
@@ -439,7 +439,7 @@
         <div class="hero-text">
             <div class="badge"><i class="fas fa-bolt"></i> 24/7 Tezkor yetkazib berish</div>
             <h2>Eng sifatli <span style="color:#ffb347;">o'yinlar</span> va <br>kontentlar</h2>
-            <p>Uynaykon – sizning eng ishonchli raqamli do'koningiz. Premium o'yin hisoblari, skinlar, valyuta va boshqa ko'plab mahsulotlar.</p>
+            <p>Game – sizning eng ishonchli raqamli do'koningiz. Premium o'yin hisoblari, skinlar, valyuta va boshqa ko'plab mahsulotlar.</p>
             <div class="btn-group">
                 <button class="btn-primary" id="browseBtn"><i class="fas fa-store"></i> Xarid qilish</button>
                 <button class="btn-outline" id="promoScroll">Chegirmalar <i class="fas fa-angle-right"></i></button>
@@ -465,8 +465,8 @@
 </div>
 
 <footer>
-    <p><i class="far fa-copyright"></i> 2026 Uynaykon — Tezkor va xavfsiz xarid. Barcha huquqlar himoyalangan.</p>
-    <p style="margin-top: 8px;"><i class="fab fa-telegram"></i> @uynaykon_support | <i class="fas fa-headset"></i> 24/7 qo'llab-quvvatlash</p>
+    <p><i class="far fa-copyright"></i> 2026 — Tezkor va xavfsiz xarid. Barcha huquqlar himoyalangan.</p>
+    <p style="margin-top: 8px;"><i class="fab fa-telegram"></i> @dd_loz | <i class="fas fa-headset"></i> 24/7 qo'llab-quvvatlash</p>
 </footer>
 
 <!-- Savatcha Modali -->
@@ -521,7 +521,7 @@
         // savatcha modali tarkibini yangilash kerak bo'lsa
         renderCartModal();
         // saqlash localStorage (iste'molchi uchun)
-        localStorage.setItem('uynaykon_cart', JSON.stringify(cart));
+        localStorage.setItem('Game_cart', JSON.stringify(cart));
     }
 
     function showToast(message) {
@@ -627,7 +627,7 @@
 
     // Load cart from localStorage
     function loadCartFromStorage() {
-        const saved = localStorage.getItem('uynaykon_cart');
+        const saved = localStorage.getItem('Game_cart');
         if(saved) {
             try {
                 cart = JSON.parse(saved);
